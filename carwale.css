@@ -114,12 +114,11 @@ header{
     height: 28px;
     width: 12%;
     margin-top: 9px;
-    margin-left: 841px;
+    margin-left: 840px;
 }
 #location>img:hover{
     transform: scale(0.9);
-    margin-top: 9px;
-    margin-left: 862px;
+   
 }
 #new>span{
     font-size: large;
