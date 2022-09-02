@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Wale</title>
+    <link rel="stylesheet" href="carwale.css">
+    <link rel="icon" href="icon/carwaleicon.png" >
+    <script src="carwale.js"></script>
+
+</head>
+<body class="">
+    <div id="coupon">
+        <button  onclick="closeCoupon()">&times;</button>
+    </div>
+    <header>
+        <div id="icon">
+            <img src="icon/logo.png" alt="Logo">
+            <div id="login">
+                <img src="icon/loginicon.png" alt="Login">
+            </div>
+            <div id="search">
+                <span>search</span>
+                <img src="icon/searchicon.png">
+            </div>
+            <div id="language">
+                <img src="icon/trans icon.png" alt="language">
+            </div>
+            <div id="location">
+                <img src="icon/loc icon.png" alt="loction">
+            </div>
+            <div id="new"> 
+                <span>NEW CARS</span>
+            </div>
+            <div id="old"> 
+                <span>OLD CARS</span>
+            </div>
+            <div id="reviews"> 
+                <span>REVIEWS & NEWS</span>
+            </div>                                          
+        </div>
+    </header>
+
+    <!-- Search bar -->
+    <div id="searchbar">
+        <h1>FIND THE RIGHT CAR</h1>
+        <div id="searchhere" >
+            <input id="searchbox" type="text" placeholder="Type to select car name" aria-label="Search your car">
+            <input id="btn1" type="button" value="Search">
+        
+        </div>
+    </div>        
+    
+    <div id="featured">
+        <h1 id="heading2">  Fetured Cars</h1>
+        <div id="featuredbox">
+            <div id="featureby">
+                <ul id="bestfeatured">
+                    <li class="ul1"><h3>Most Popular</h3></li>
+                    <li class="ul1"><h3>New Launches</h3></li>
+                    <li class="ul1"><h3>Upcoming</h3></li>
+                </ul>
+            </div>
+            <div>              
+                <ul id="tile1">
+                    <li class="cardite">
+                        <a href="#mahindra">
+                            <span >
+                                <img class="carimg" src="icon/scorpio-n-exterior-right-front-three-quarter-15.webp" alt="Mahindra">
+                            </span>
+                        </a>
+                        <Div class="ditsection">
+                            <a class="carname" href="#">
+                                <span class="carname">Mahindra Scorpio-N</span>
+                            </a>
+                            <div>
+                                <span class="pricetitle">Avg. Ex-showroom price</span>
+                                <span class="onlineprice">₹ 11.99 Lakh</span>
+                            </div>
+                            <span class="font14">onwards</span>
+                            <div class="showprice" >
+                                <span>Show price in my city</span>
+                            </div>
+                        </Div>
+                    </li>
+    
+                    <li class="cardite">
+                        <a href="#maruti-suzuki">
+                            <span >
+                                <img class="carimg" src="icon/vitara-brezza-2022-exterior-right-front-three-quarter.webp" alt="Maruti-Suzuki">
+                            </span>
+                        </a>
+                        <Div class="ditsection">
+                            <a class="carname" href="#">
+                                <span class="carname">Maruti Suzuki Brezza</span>
+                            </a>
+                            <span class="pricetitle">Avg. Ex-showroom price</span>
+                            <div>
+                                <span class="onlineprice">₹ 7.99 Lakh</span>
+                                <span class="font14">onwards</span>
+                            </div>
+                            <div class="showprice" >
+                                <span>Show price in my city</span>
+                            </div> 
+                        </Div>
+                    </li>
+    
+                    <li class="cardite">
+                        <a href="#venue">
+                            <span >
+                                <img class="carimg" src="icon/venue-exterior-right-front-three-quarter-2.webp" alt="venue">
+                            </span>
+                        </a>
+                        <Div class="ditsection">
+                            <a class="carname" href="#">
+                                <span class="carname">Hyundai Venue</span>
+                            </a>
+                            <span class="pricetitle">Avg. Ex-showroom price</span>
+                            <div>
+                                <span class="onlineprice">₹ 7.53 Lakh</span>
+                                <span class="font14">onwards</span>
+                            </div>                             
+                            <div class="showprice" >
+                                <span>Show price in my city</span>
+                            </div> 
+                        </Div>
+                    </li>
+                </ul>
+                <button class="viewmorebtn">
+                    View all cars >
+                </button>                                   
+            </div>
+        </div>
+    </div>
+    
+    <div id="browseby">
+        <h1 id="heading">Browse Car By</h1>
+        <div id="selectbox">
+            <div id="selectnow">
+                <ul id="discoverby">
+                    <li class="ul1"><h3> ALL BRANDS </h3></li>
+                </ul>
+            </div>
+
+            <div>              
+                <ul id="bydemand">
+                    <li class="selectbrand">
+                        <a href="#Maruti-Suzuki">
+                            <span class="brandlogo">
+                                <img src="maruti-suzuki.jpg" alt="maruti-suzuki Car">
+                            </span>
+                            <span class="brandlogotitle">Maruti-Suzuki</span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#Honda">
+                            <span class="brandlogo">
+                                <img src="honda.jpg" alt="honda Car">  
+                            </span>
+                            <span class="brandlogotitle">Honda</span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#Tata">
+                            <span class="brandlogo">
+                                <img src="tata.jpg" alt="tata Car">
+                            </span>
+                            <span class="brandlogotitle">Tata</span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#Mahindra">
+                            <span class="brandlogo">
+                                <img src="mahindra.jpg" alt="mahindra Car">
+                            </span>
+                            <span class="brandlogotitle">Mahindra</span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#Toyota">
+                            <span class="brandlogo">
+                                <img src="toyota.jpg" alt="toyota car">
+                            </span>
+                            <span class="brandlogotitle">Toyota</span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#Skoda">
+                            <span class="brandlogo">
+                                <img src="skoda.jpg" alt="skoda car">
+                            </span>
+                            <span class="brandlogotitle">Kia</span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#Hyundai">
+                            <span class="brandlogo">
+                                <img src="hyundai.jpg" alt="hyundai car">
+                            </span>
+                            <span class="brandlogotitle">Hyundai</span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#Mercedes-Benz">
+                            <span class="brandlogo">
+                                <img src="mercedes-benz.jpg" alt="mercedes-benz car">
+                            </span>
+                            <span id="brandlogotitle">Mercedes-Benz</span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#BMW">
+                            <span class="brandlogo">
+                                <img src="bmw.jpg" alt="bmw">
+                            </span>
+                            <span class="brandlogotitle">BMW</span>
+                        </a>
+                    </li>
+                    <li class="selectbrand">
+                        <a href="#Volkswagen">
+                            <span class="brandlogo">
+                                <img src="volkswagen.jpg" alt="volkswagen Car">
+                            </span>
+                            <span class="brandlogotitle">Volkswagen</span>
+                        </a>
+                    </li>
+                <button class="viewbrandbtn">
+                    View more Brand>
+                </button>  
+            </div>
+        </div>
+    </div>
+    <div id="comparecar">
+        <h1 id="heading5">
+            Compare car
+        </h1>
+        <div id="maincomparebox">
+            <ul id="sections">
+                <li id="comparebox1">
+                    <a href="#">
+                        <span>
+                            <img class="compcarimg1" src="icon/kiger-exterior-right-front-three-quarter-4.webp" alt="Apache">
+                        </span>
+                        <span>
+                            <img id="vs" src="icon/vs.png" alt="VS">
+                        </span>
+                        <span>
+                            <img class="compcarimg2" src="icon/tata-nexon-right-front-three-quarter3.webp" alt="BMW G310">
+                        </span>
+                        <div id="carcardit">
+                            <a class="carname" href="#">                              
+                               <span class="carname-1">Renault</span>
+                               <span class="carname-1">Kiger</span>                                
+                                <span class="pricetitle-1">Avg. Ex-showroom price</span>
+                                <span class="onlineprice-1">₹ 5.99 Lakh</span>                            
+                            </a>
+                        </div>
+                        <div id="bmwcardit">
+                            <a class="carname" href="#">                              
+                               <span class="carname-1">Tata</span>
+                               <span class="carname-1">Nexon</span>                                
+                                <span class="pricetitle-1">Avg. Ex-showroom price</span>
+                                <span class="onlineprice-1">₹ 7.59 Lakh</span>                            
+                            </a>
+                        </div>
+                    </a>
+                    <div>
+                        <button class="pricebtn-comp">Campare Kiger vs Nexon</button>
+                    </div>
+                </li>
+                <li id="comparebox2">
+                    <a href="#">
+                        <span>
+                            <img class="compcarimg1" src="icon/scorpio-n-exterior-right-front-three-quarter-15.webp" alt="scorpio-n">
+                        </span>
+                        <span>
+                            <img id="vs" src="icon/vs.png" alt="VS">
+                        </span>
+                        <span>
+                            <img class="compcarimg2" src="icon/xuv700-exterior-right-front-three-quarter.webp" alt="xuv700">
+                        </span>
+                        <div id="carcardit">
+                            <a class="carname" href="#">                              
+                                <span class="carname-1">Mahindra</span>
+                                <span class="carname-1">Scorpio-N</span>
+                                <span class="pricetitle-1">Avg. Ex-showroom price</span>
+                                <span class="onlineprice-1">₹ 11.99 Lakh</span>                            
+                            </a>
+                        </div>
+                        <div id="bmwcardit">
+                            <a class="carname" href="#">                              
+                                <span class="carname-1">Mahindra</span>
+                                <span class="carname-1">XUV700</span>                               
+                                <span class="pricetitle-1">Avg. Ex-showroom price</span>
+                                <span class="onlineprice-1">₹ 13.18 Lakh</span>                    
+                            </a>
+                        </div>
+                    </a>
+                    <div>
+                        <button class="pricebtn-comp">Campare Scorpio-N vs XUV700</button>
+                    </div>
+            <button id="viewmorebtn-comp">
+                View all cars >
+            </button>
+        </div>
+    </div>
+    <div id="chackprice-banner"> 
+        <div id="borderonbanner">
+            <h1 id="heading3">On-road price</h1>
+            <input type="text" placeholder="Search Make and Model" id="makemodelfinalprice">
+            <div id="loc-2">
+                <select  id="selectloc-2">
+                    <option>--Select--</option>
+                    <option>C-Schme Jaipur</option>
+                    <option>Vaishali Nagar</option>
+                    <option>Malviya Nagar</option>
+                    <option>Civil Line</option>
+                    <option>Mansarover</option> 
+                </select>
+            </div>
+            <div id="note">
+                <span class="displaynote">Its private, no need to share your number and email</span>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div id="news">
+    <h1 id="heading6">News/Updates</h1>
+    <div id="newssection">
+        <div id="featureby">
+            <ul id="bestfeatured">
+                <li class="ul3"><h3>News</h3></li>
+                <li class="ul3"><h3>Expert Reviews</h3></li>
+                <li class="ul3"><h3>Videos</h3></li>
+            </ul>
+        </div>
+        <div  class="d-flex p-5 mt-5">
+            <div class="card1 " >
+                <div class="card-body1">
+                    <div class="newsimg">
+                        <img src="img/news1right-front-three-quarter0.webp" alt="img">
+                    </div>
+                    <div class="newsdit">
+                        <h5 class="card-title">CNG spec comparison – Maruti Suzuki Swift vs Hyundai Grand i10 Nios</h5>
+                        <p class="card-text">
+                            The new Maruti Suzuki Swift S-CNG is available in two variant options – VXi and ZXi. On the other hand, Hyundai Grand i10 Nios CNG is available in three variant options – Magna, Sportz, and Asta.  
+                        </p>
+                        <h6 class="text-Secondary">Today</h6>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card1 " >
+                <div class="card-body1">
+                    <div class="newsimg">
+                        <img src="img/news222.webp" alt="img">
+                    </div>
+                    <div class="newsdit">
+                        <h5 class="card-title">Tata Tigor colour options revised</h5>
+                        <p class="card-text">
+                            Tata Motors has discreetly updated the colour options of the Tigor sub-four metre sedan. According to the details available, the carmaker has removed two colours and added two new colours to the model’s line-up.
+                        </p>
+                        <h6 class="text-Secondary">1 days ago</h6>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card1 " >
+                <div class="card-body1">
+                    <div class="newsimg">
+                        <img src="img/news3.webp" alt="img">
+                    </div>
+                    <div class="newsdit">
+                        <h5 class="card-title">Tata Motors and State Bank of India join hands to offer EV dealer finance solutions </h5>
+                        <p class="card-text">
+                            The company currently sells the Nexon EV, Tigor EV, and the X-Pres T EV in the electric vehicle segment 
+                        </p>
+                        <h6 class="text-Secondary">3 days ago</h6>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <footer>
+    <div id="footsec">
+        
+        <div id="allsiteslogo">              
+            <ul id="allsite">
+                <li class="selectbrand">
+                    <a href="#">
+                        <span class="site1">
+                            <img src="img/bikewale1.png" alt=" cars">
+                        </span>
+                    </a>
+                </li>
+                <li class="selectbrand">
+                    <a href="#">
+                        <span class="site1">
+                            <img src="img/carexpert2.png" alt=" cars">  
+                        </span>
+                    </a>
+                </li>
+                <li class="selectbrand">
+                    <a href="#">
+                        <span class="site1">
+                            <img src="img/cartred3.png" alt=" cars">
+                        </span>
+                    </a>
+                </li>
+                <li class="selectbrand">
+                    <a href="#">
+                        <span class="site1">
+                            <img src="img/ouylok4.png" alt=" cars">
+                        </span>
+                    </a>
+                </li>
+                <li class="selectbrand">
+                    <a href="#">
+                        <span class="site1">
+                            <img src="img/asure5.png" alt=" cars">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>    
+            <div id="socialid">
+                <div id="join1">
+                    <p id="join">Join us on</p>
+                </div>
+                <div id="socialmedia">
+                    <a href="https://www.facebook.com/D.R.YR13/" target="_blank">
+                        <img src="social img/fb.jfif" alt="fb" class="socialimg"> 
+                    </a>
+                    <a href="https://www.instagram.com/dilip_2917/" target="_blank"> 
+                        <img src="social img/instagram.jfif" alt="instagram" class="socialimg">
+                    </a>
+                    <a href="https://github.com/DilipRathore1" target="_blank">
+                        <img src="social img/github1.jpg" alt="github" class="socialimg">
+                    </a>
+                    <a href="https://www.linkedin.com/in/dilip-rathore-612004168/" target="_blank">
+                        <img src="social img/linkd.png" alt="linkedin" class="socialimg">
+                    </a>
+                    <a href="https://stackoverflow.com/users/19368998/dilip-rathore" target="_blank">
+                        <img src="social img/stack logo.png" alt="stackoverflow" class="socialimg">
+                    </a>
+                </div>
+            </div>
+            <div id="sdgsdf">
+                <div id="socialapps">
+                    <div id="join1">
+                        <p id="join">Download Mobile App</p>
+                    </div>
+                    <div class="social">
+                        <a href="https://play.google.com/store/apps/details?id=com.carwale&referrer=utm_source%3DCarWaleMsite%26utm_medium%3DFooter%26utm_campaign=CarWale%2520MobilesiteFooter" ><img src="img/Screenshot 2022-08-17 183654.png" alt="Playstore" class="socialimg1"> </a>
+                        <a href="https://apps.apple.com/in/app/carwale/id910137745"><img src="img/appllogo.png" alt="App store" class="socialimg1"></a>
+                        
+                    </div>
+                </div>
+            </div>  
+            
+        <div id="copyr">
+            <span>Visitor Agreement & Privacy Policy</span>
+            <span id="cop">&copy;CarWale&hearts;</span>
+        </div>
+    </div>
+    
+</footer>
+
+<script>
+    window.onload=loadCoupon();
+</script>                 
+</body>
