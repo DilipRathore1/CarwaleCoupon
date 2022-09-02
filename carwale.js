@@ -11,7 +11,7 @@
     document.getElementById("coupon").style.display="none";
     document.getElementById('searchbar').style.opacity="1"
     document.getElementById('featured').style.opacity="1"
-    document.getElementById('browseby').style.opacity="0.5"
-    document.getElementById('comparecar').style.opacity="0.5"
+    document.getElementById('browseby').style.opacity="1"
+    document.getElementById('comparecar').style.opacity="1"
  
  }
